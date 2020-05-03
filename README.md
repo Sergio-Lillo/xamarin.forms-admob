@@ -1,3 +1,3 @@
 # xamarin.forms-admob
-Currently, this repository is not working due to <a href="https://ads-developers.googleblog.com/2018/10/announcing-v1700-of-android-google.html">changes made by Google</a> that now require adding your AdMob app ID in your AndroidManifest file. Soon I will upload an update that will solve this problem.
+<img src="https://1.bp.blogspot.com/-yCxFbaVfKiY/Xq7ygkM-K9I/AAAAAAAACeA/2H6nTLluveACM9-eFYvqeX2ddJ_vfbT7QCLcBGAsYHQ/s1600/qemu-system-x86_64_2020-05-03_18-28-17.png">
 
