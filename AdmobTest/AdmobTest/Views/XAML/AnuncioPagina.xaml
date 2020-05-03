@@ -7,7 +7,7 @@
         <StackLayout>
             <controls:AdMobView
                 HorizontalOptions="FillAndExpand"
-                VerticalOptions="Start"/>
+                VerticalOptions="FillAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

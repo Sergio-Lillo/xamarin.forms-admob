@@ -10,7 +10,7 @@ namespace AdmobTest.Droid.Renders
 {
     public class AdMobRenderer : ViewRenderer
     {
-        public AdMobRenderer(Context context) : base(context) {}
+        public AdMobRenderer(Context context) : base(context) { }
 
         protected override void OnElementChanged(ElementChangedEventArgs<View> e)
         {
@@ -18,10 +18,12 @@ namespace AdmobTest.Droid.Renders
 
             if ((Element is AdMobView adMobElement) && (e.OldElement == null))
             {
+                var adId = "ca-app-pub-3940256099942544/6300978111";
+
                 var ad = new AdView(Context)
                 {
                     AdSize = AdSize.Banner,
-                    AdUnitId = ""
+                    AdUnitId = adId
                 };
 
                 var requestbuilder = new AdRequest.Builder();

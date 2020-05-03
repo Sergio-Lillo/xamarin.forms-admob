@@ -1,5 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -11,8 +10,8 @@ namespace AdmobTest
         {
             InitializeComponent();
 
-            MainPage = new Views.C_sharp.AnuncioPagina();
-            //MainPage = new Views.XAML.AnuncioPagina();
+            MainPage = new Views.XAML.AnuncioPagina();
+            //MainPage = new Views.C_sharp.AnuncioPagina();
         }
 
         protected override void OnStart()

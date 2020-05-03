@@ -9790,28 +9790,10 @@ namespace AdmobTest.Droid
 			public const int path_password_strike_through = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int s1 = 2131558441;
+			public const int search_menu_title = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int s2 = 2131558442;
-			
-			// aapt resource value: 0x7F0D002B
-			public const int s3 = 2131558443;
-			
-			// aapt resource value: 0x7F0D002C
-			public const int s4 = 2131558444;
-			
-			// aapt resource value: 0x7F0D002D
-			public const int s5 = 2131558445;
-			
-			// aapt resource value: 0x7F0D002E
-			public const int s6 = 2131558446;
-			
-			// aapt resource value: 0x7F0D002F
-			public const int search_menu_title = 2131558447;
-			
-			// aapt resource value: 0x7F0D0030
-			public const int status_bar_notification_info_overflow = 2131558448;
+			public const int status_bar_notification_info_overflow = 2131558442;
 			
 			static String()
 			{
